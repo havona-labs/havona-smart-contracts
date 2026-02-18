@@ -1,0 +1,133 @@
+{
+  "contractNo": "TC-1744373638698",
+  "contractDate": "2025-04-11T12:13:58.698Z",
+  "status": "BLOTTING",
+  "fieldStatuses": [
+    {
+      "fieldName": "incoTerms",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "DAP"
+    },
+    {
+      "fieldName": "quantity",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "11"
+    },
+    {
+      "fieldName": "weightUnit",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "MT"
+    },
+    {
+      "fieldName": "originCountry",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "AE"
+    },
+    {
+      "fieldName": "currencyCode",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "USD"
+    },
+    {
+      "fieldName": "paymentTermsCode",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "CIF_COST_INSURANCE_AND_FREIGHT"
+    },
+    {
+      "fieldName": "loadLocation",
+      "status": "PENDING",
+      "buyerValue": null
+    },
+    {
+      "fieldName": "dischargeLocation",
+      "status": "PENDING",
+      "buyerValue": null
+    },
+    {
+      "fieldName": "latestShipmentDate",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "2025-04-11"
+    },
+    {
+      "fieldName": "latestDeliveryDate",
+      "status": "PENDING",
+      "buyerValue": null,
+      "sellerValue": "2025-04-11"
+    }
+  ],
+  "fieldHistories": [
+    {
+      "fieldName": "Trade Creation",
+      "changes": [
+        {
+          "timestamp": "2025-04-11T12:13:58.699Z",
+          "oldValue": null,
+          "newValue": "Initial Trade Created",
+          "updatedByMember": {
+            "id": null,
+            "companyName": null,
+            "contactDetails": "bradley@havona.io"
+          },
+          "updatedByMemberCollaborator": {
+            "id": null,
+            "email": "bradley@havona.io"
+          }
+        }
+      ]
+    }
+  ],
+  "incoTerms": "DAP",
+  "uNECEDocumentCodes": [
+    "COMBINED_TRANSPORT_BILL_OF_LADING_CODE_766"
+  ],
+  "seller": {
+    "id": null,
+    "companyName": null,
+    "contactDetails": "bradley@havona.io"
+  },
+  "buyer": {
+    "id": "0x1a53c421eb",
+    "companyName": "POST TRADE LTD",
+    "contactDetails": "bradley@havona.io"
+  },
+  "productGoods": {
+    "name": "Hard Red Winter Wheat",
+    "quantity": 11,
+    "weightUnit": "MT",
+    "originCountry": "AE",
+    "qualitySpecifications": {
+      "blob": "test"
+    },
+    "qualityWeightConditions": {
+      "blob": "test"
+    },
+    "originLocation": null,
+    "unitMeasurements": {
+      "quantityWeight": null,
+      "unitPrice": "11"
+    }
+  },
+  "paymentTerms": {
+    "currencyCode": "USD",
+    "paymentTermsCode": "CIF_COST_INSURANCE_AND_FREIGHT"
+  },
+  "delivery": {
+    "transports": {
+      "portOfLoading": {
+        "locationName": null
+      },
+      "portOfDischarge": {
+        "locationName": null
+      }
+    },
+    "latestShipmentDate": "2025-04-11",
+    "latestDeliveryDate": "2025-04-11"
+  }
+}

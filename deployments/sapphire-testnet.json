@@ -1,0 +1,19 @@
+{
+  "network": "Oasis Sapphire Testnet",
+  "chainId": 23295,
+  "rpcUrl": "https://testnet.sapphire.oasis.io",
+  "explorer": "https://explorer.oasis.io/testnet/sapphire",
+  "deployedAt": "2026-02-15T18:42:27Z",
+  "deployer": "0x6BA33AD26aDf9d115BFf918D0FdB5d16397Bd941",
+  "contracts": {
+    "HavonaPersistor": {
+      "address": "0xb6d9e6dC3f13413656b74951776f1EE067758613",
+      "explorer": "https://explorer.oasis.io/testnet/sapphire/address/0xb6d9e6dC3f13413656b74951776f1EE067758613"
+    },
+    "P256Verifier": {
+      "address": "0x246f91EA2A6a23f4a17123b72e80718cCB7dDD26",
+      "explorer": "https://explorer.oasis.io/testnet/sapphire/address/0x246f91EA2A6a23f4a17123b72e80718cCB7dDD26"
+    }
+  },
+  "notes": "HavonaPersistor is the primary contract. P256Verifier enables YubiKey/WebAuthn hardware signatures."
+}

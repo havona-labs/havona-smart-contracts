@@ -1,0 +1,19 @@
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Dependencies (installed via forge install)
+lib/
+
+# Environment
+.env
+*.env
+private_key*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
